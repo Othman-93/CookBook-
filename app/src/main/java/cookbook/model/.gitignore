@@ -1,0 +1,5 @@
+
+# Ignore database, prevent password leaking
+
+PersonalizedDatabase.java
+

@@ -1,0 +1,16 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Ignore json script
+package.json
+
+# Ignore database, prevent password leaking
+
+./app/src/main/java/cookbook/model/DatabaseUtilProviderImpl.java
+
+# Ignore bin
+
+bin

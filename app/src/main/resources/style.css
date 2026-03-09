@@ -1,0 +1,434 @@
+.root {
+  -fx-font-family: 'FREEPIXEL';
+}
+
+.clearButton{
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-border-width: 0;
+  -fx-focus-color: transparent;
+  -fx-faint-focus-color: transparent;
+}
+
+.arrowButton{
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+}
+
+.fieldBox{
+  -fx-border-color: transparent;
+  -fx-background-color: transparent;
+}
+
+.boldPromptStyle{
+  -fx-font-weight: bold;
+}
+
+.admin-text-field {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-border-width: 0;
+  -fx-focus-color: transparent;
+  -fx-faint-focus-color: transparent;
+}
+
+.list-view {
+  -fx-background-color: transparent;
+}
+
+.list-cell {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-text-fill: black;
+  -fx-padding: 0px,0px;
+}
+
+.list-cell:filled:hover, .list-cell:filled:selected {
+  -fx-background-color: transparent;
+  -fx-text-fill: white;
+}
+
+.registrationTextField {
+  -fx-border-color: transparent;
+  -fx-background-color: transparent;
+  -fx-alignment: center;
+}
+
+.admin-checkbox .box,
+.admin-checkbox .box:hover {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+}
+
+.admin-checkbox:selected .mark {
+    -fx-shape: " ";
+}
+
+.admin-checkbox:focused {
+    -fx-focus-color: transparent;
+}
+
+.toggle-button:disabled {
+  -fx-opacity: 1;
+}
+
+.combo-box-base {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+}
+.combo-box .list-view {
+  -fx-background-color: #80b6ff;
+  -fx-background-radius: 10px;
+  -fx-padding: 0;
+  -fx-border-color: #3c8cf5;;
+  -fx-border-radius: 10px;
+}
+
+.combo-box-popup .list-cell {
+  -fx-text-fill: black;
+}
+
+.combo-box-popup .list-cell:hover {
+  -fx-text-fill: white;
+}
+
+.combo-box .list-cell:selected {
+  -fx-text-fill: black;
+}
+
+.combo-box .button-cell {
+  -fx-text-fill: black;
+}
+
+.recipe-name-label {
+  -fx-background-color: #b68cb8;
+  -fx-border-color: #3c2075;
+  -fx-border-radius: 12px;
+  -fx-background-radius: 12px;
+}
+
+.recipe-scrollpane {
+  -fx-background-color: #b68cb8;
+  -fx-border-color: #3c2075;
+  -fx-border-radius: 12px;
+  -fx-background-radius: 12px;
+  -fx-padding: 5;
+}
+
+.recipe-scrollpane .viewport {
+  -fx-background-color: #b68cb8;
+}
+
+.recipe-scrollpane .scroll-bar {
+  -fx-background-color: transparent;
+}
+
+.recipe-scrollpane .scroll-bar:vertical, .recipe-scrollpane .scroll-bar:horizontal {
+  -fx-background-color: transparent;
+}
+
+.recipe-scrollpane .corner {
+  -fx-background-color: transparent ;
+}
+
+.recipe-scrollpane .scroll-bar .track {
+  -fx-background-color: transparent;
+}
+
+.recipe-scrollpane .scroll-bar .thumb {
+  -fx-background-color: #edb055b2;
+  -fx-background-insets: 5;
+  -fx-background-radius: 5px;
+}
+
+.recipe-scrollpane .scroll-bar .increment-button, .recipe-scrollpane .scroll-bar .decrement-button {
+  -fx-background-color: transparent;
+  -fx-opacity: 0;
+}
+
+.servings-combo-box {
+  -fx-background-color: #b68cb8;
+  -fx-border-color: #3c2075;
+  -fx-border-radius: 12px;
+  -fx-background-radius: 12px;
+}
+
+.servings-combo-box .arrow-button {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-padding: 2px;
+}
+
+.servings-combo-box .combo-box-popup .list-view {
+  -fx-background-color: #b68cb8;
+  -fx-background-radius: 12px;
+  -fx-padding: 2;
+  -fx-border-color: #3c2075;
+  -fx-border-radius: 12px;
+}
+
+.servings-combo-box .combo-box-popup .list-cell {
+  -fx-text-fill: black;
+  -fx-padding: 0px;
+  -fx-alignment: center;
+}
+
+.servings-combo-box .combo-box-popup .list-cell:hover {
+  -fx-text-fill: white;
+}
+
+.servings-combo-box .combo-box-popup .list-cell:selected {
+  -fx-text-fill: black;
+}
+
+.recipe-tags-label {
+  -fx-background-color: #edb055;
+  -fx-background-radius: 12px;
+  -fx-padding: 4;
+  /* -fx-border-color: #3c2075;
+  -fx-border-radius: 12px; */
+}
+
+.recipe-comments-button {
+  -fx-background-color: #b68cb8;
+  -fx-border-color: #3c2075;
+  -fx-border-radius: 12px;
+  -fx-background-radius: 12px;
+  -fx-padding: 5;
+}
+
+.recipe-comments-button:hover {
+  -fx-background-color: #b68cb8;
+  -fx-border-color: #3c2075;
+  -fx-text-fill: white;
+  -fx-border-radius: 12px;
+  -fx-background-radius: 12px;
+  -fx-padding: 5;
+}
+
+.recipe-comments-button:selected {
+  -fx-background-color: #b68cb8;
+  -fx-border-color: #3c2075;
+  -fx-text-fill: black;
+  -fx-border-width: 0 1px 1px 1px;
+  -fx-border-radius: 0 0 12px 12px;
+  -fx-background-radius: 0 0 12px 12px;
+  -fx-padding: 5;
+}
+
+.recipe-comments-button:selected:hover {
+  -fx-background-color: #b68cb8;
+  -fx-border-color: #3c2075;
+  -fx-text-fill: white;
+  -fx-border-width: 0 1px 1px 1px;
+  -fx-border-radius: 0 0 12px 12px;
+  -fx-background-radius: 0 0 12px 12px;
+  -fx-padding: 5;
+}
+
+.browse-recipes-list-view {
+}
+
+.browse-recipes-list-view .list-cell:hover {
+  -fx-text-fill: white;
+}
+
+.browse-recipes-list-view .list-cell:selected {
+  -fx-text-fill: white;
+}
+
+.browse-recipes-list-view .list-cell {
+  -fx-text-fill: black;
+}
+
+.browse-recipes-list-view .favorite {
+  -fx-text-fill: gold;
+}
+
+.browse-recipes-list-view .favorite:hover {
+  -fx-text-fill: white;
+}
+
+.browse-recipes-list-view .favorite:selected {
+  -fx-text-fill: white;
+}
+
+.browse-recipes-list-view .scroll-bar {
+  -fx-background-color: transparent;
+}
+
+.browse-recipes-list-view .scroll-bar:vertical, .list-view .scroll-bar:horizontal {
+  -fx-background-color: transparent;
+}
+
+.browse-recipes-list-view .corner {
+  -fx-background-color: transparent ;
+}
+
+.browse-recipes-list-view .scroll-bar .track {
+  -fx-background-color: transparent;
+}
+
+.browse-recipes-list-view .scroll-bar .thumb {
+  -fx-background-color: #edb055b2;
+  -fx-background-insets: 5;
+  -fx-background-radius: 5px;
+}
+
+.browse-recipes-list-view .scroll-bar .increment-button, .browse-recipes-list-view .scroll-bar .decrement-button {
+  -fx-background-color: transparent;
+  -fx-opacity: 0;
+}
+
+.add-recipe-label {
+  -fx-background-color: #3c2075;
+  -fx-border-color: #3c2075;
+  -fx-border-width: 2px 2px 0 2px;
+  -fx-border-radius: 10px 10px 0 0;
+  -fx-background-radius: 10px 10px 0 0;
+  -fx-text-fill: #edb055;
+  -fx-text-alignment: center;
+  -fx-alignment: center;
+}
+
+.add-recipe-textfield {
+  -fx-background-color: #ffff;
+  -fx-border-color: #3c2075;
+  -fx-border-width: 2px;
+  -fx-padding: 2px;
+}
+
+.add-recipe-name-textfield {
+  -fx-background-color: #ffff;
+  -fx-border-color: #3c2075;
+  -fx-border-radius: 0 0 10px 10px;
+  -fx-background-radius: 0 0 10px 10px;
+  -fx-border-width: 2px;
+  -fx-alignment: CENTER;
+}
+
+.add-recipe-textarea {
+  -fx-background-color: #ffff;
+  -fx-border-color: #3c2075;
+  -fx-border-radius: 0 0 10px 10px;
+  -fx-background-radius: 0 0 10px 10px;
+  -fx-border-width: 2px;
+  -fx-padding: 0 0 5px 0;
+}
+
+.add-recipe-textarea .content{
+  -fx-background-color: #ffff;
+  -fx-border-color: transparent;
+}
+
+.add-recipe-textarea .content:focused,
+.add-recipe-textarea .content:hover,
+.add-recipe-textarea .content:pressed,
+.add-recipe-textarea .content:selected {
+  -fx-background-color: #ffff;
+  -fx-border-color: transparent;
+}
+
+.add-recipe-textarea .scroll-bar {
+  -fx-background-color: transparent;
+}
+
+.add-recipe-textarea .scroll-bar:vertical, .list-view .scroll-bar:horizontal {
+  -fx-background-color: transparent;
+}
+
+.add-recipe-textarea .corner {
+  -fx-background-color: transparent ;
+}
+
+.add-recipe-textarea .scroll-bar .track {
+  -fx-background-color: transparent;
+}
+
+.add-recipe-textarea .scroll-bar .thumb {
+  -fx-background-color: #edb055b2;
+  -fx-background-insets: 5;
+  -fx-background-radius: 5px;
+}
+
+.add-recipe-textarea .scroll-bar .increment-button, .add-recipe-textarea .scroll-bar .decrement-button {
+  -fx-background-color: transparent;
+  -fx-opacity: 0;
+}
+
+.add-recipe-small-label {
+  -fx-background-color: #3c2075;
+  -fx-border-color: #3c2075;
+  -fx-border-width: 2px 0 2px 2px;
+  -fx-border-radius: 10px 0 0 10px;
+  -fx-background-radius: 10px 0 0 10px;
+  -fx-text-fill: #edb055;
+  -fx-text-alignment: center;
+  -fx-alignment: center;
+}
+
+.add-recipe-small-textfield {
+  -fx-background-color: #fff;
+  -fx-border-color: #3c2075;
+  -fx-border-width: 2px 2px 2px 2px;
+  -fx-border-radius: 0px 10px 10px 0px;
+  -fx-background-radius: 0px 10px 10px 0px;
+}
+
+.add-recipe-listview-background {
+  -fx-background-color: #ffff;
+  -fx-border-color: #3c2075;
+  -fx-border-radius: 0 0 10px 10px;
+  -fx-background-radius: 0 0 10px 10px;
+  -fx-border-width: 2px;
+  -fx-padding: 0 0 5px 0;
+}
+
+.add-recipe-listview {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-border-radius: 0 0 10px 10px;
+  -fx-background-radius: 0 0 10px 10px;
+  -fx-border-width: 2px;
+  -fx-padding: 2px 1px 3px 3px;
+}
+
+.add-recipe-listview .scroll-bar {
+  -fx-background-color: transparent;
+}
+
+.add-recipe-listview .scroll-bar:vertical, .list-view .scroll-bar:horizontal {
+  -fx-background-color: transparent;
+}
+
+.add-recipe-listview .corner {
+  -fx-background-color: transparent ;
+}
+
+.add-recipe-listview .scroll-bar .track {
+  -fx-background-color: transparent;
+}
+
+.add-recipe-listview .scroll-bar .thumb {
+  -fx-background-color: #edb055b2;
+  -fx-background-insets: 5;
+  -fx-background-radius: 5px;
+}
+
+.add-recipe-listview .scroll-bar .increment-button, .add-recipe-listview .scroll-bar .decrement-button {
+  -fx-background-color: transparent;
+  -fx-opacity: 0;
+}
+
+.add-recipe-listview .list-cell:hover {
+  -fx-text-fill: red;
+}
+
+.add-recipe-listview .list-cell:selected {
+  -fx-text-fill: red;
+}
+
+.add-recipe-listview .list-cell {
+  -fx-text-fill: black;
+}
